@@ -1,0 +1,102 @@
+{
+	"WHOUS": {
+		"name": "West of House",
+		"desc": "This is an open field west of a white house, with a boarded front door.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "NHOUS"
+		}, {
+			"exit": "SOUTH",
+			"target": "SHOUS"
+		}, {
+			"exit": "WEST",
+            "target": "FORE1"
+        }]
+    },
+    "SHOUS": {
+        "name": "South of House",
+        "desc": "This area of the faces out toward the lake south of the house.",
+        "exits": [{
+            "exit": "NORTH",
+            "target": "NHOUS"
+        }, {
+            "exit": "SOUTH",
+            "target": "LAKE1"
+        }, {
+            "exit": "EAST",
+            "target": "EHOUS"
+        }]
+    },
+    "EHOUS": {
+        "name": "East of House",
+        "desc": "This is an open field with facing toward the road, and the back door to the house opened.",
+        "exits": [{
+            "exit": "EAST",
+            "target": "ROAD1"
+        }, {
+            "exit": "SOUTH",
+            "target": "SHOUS"
+        }, {
+            "exit": "ENTER",
+            "target": "HOUSE"
+        }]
+    },
+    "HOUSE": {
+        "name": "Inside the house",
+        "desc": "All the lights are off and the slience is unsettling.",
+        "exits": [{
+            "exit": "LEFT",
+            "target": "LROOM"
+        }, {
+            "exit": "BACKWARD",
+            "target": "BROOM"
+        }, {
+            "exit": "RIGHT",
+            "target": "KITCH"
+        }]
+    },
+    "KITCH": {
+        "name": "Kitchen",
+        "desc": "You go in and hear this high pitched noise, the tea in the kettle is steaming.",
+        "exits": [{
+            "exit": "NORTH",
+            "target": "SMELL"
+        }, {
+            "exit": "DOWN",
+            "target": "BASE1"
+        }]
+    },
+    "SMELL:": {
+        "name": "Smelly",
+        "desc": "You are now in a smelly room that is very similiar to a bathroom.",
+        "exits": [{
+            "exit": "DOWN",
+            "target": "KITCH"
+        }, {
+            "exit": "UP",
+            "target": "ATTIC"
+        }]
+    },
+    "ATTIC": {
+        "name": "Attic of the house",
+        "desc": "You are now in the attic with some old trinkets that are a bit daunting.",
+        "exits": [{
+            "exit": "DOWN",
+            "target": "STAIR"
+        }, {
+            "exit": "CRAWL",
+            "target": "CHEST"
+        }]
+    },
+    "CHEST": {
+        "name": "Treasure Chest",
+        "desc": "This is th treasure left by one of the Goonies from the 1985 classic, it is yours now.",
+        "exits": []
+    }
+}
+        
+
+
+
+        
+        
