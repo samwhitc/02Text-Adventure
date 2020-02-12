@@ -43,11 +43,8 @@
     },
     "HOUSE": {
         "name": "Inside the house",
-        "desc": "All the lights are off and the slience is unsettling.",
+        "desc": "All the lights are off and the silence is unsettling.",
         "exits": [{
-            "exit": "LEFT",
-            "target": "LROOM"
-        }, {
             "exit": "BACKWARD",
             "target": "BROOM"
         }, {
@@ -59,16 +56,16 @@
         "name": "Kitchen",
         "desc": "You go in and hear this high pitched noise, the tea in the kettle is steaming.",
         "exits": [{
-            "exit": "NORTH",
-            "target": "SMELL"
+            "exit": "LEFT",
+            "target": "STUDY"
         }, {
             "exit": "DOWN",
             "target": "BASE1"
         }]
     },
-    "SMELL:": {
-        "name": "Smelly",
-        "desc": "You are now in a smelly room that is very similiar to a bathroom.",
+    "STUDY": {
+        "name": "Study Room",
+        "desc": "You are now in the the study, there is a map that is oddly familiar.",
         "exits": [{
             "exit": "DOWN",
             "target": "KITCH"
@@ -90,7 +87,7 @@
     },
     "CHEST": {
         "name": "Treasure Chest",
-        "desc": "This is th treasure left by one of the Goonies from the 1985 classic, it is yours now.",
+        "desc": "This is the treasure left by one of the Goonies from the 1985 classic, it is yours now.",
         "exits": []
     }
 }
